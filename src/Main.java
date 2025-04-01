@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        double tiketprice = 20000;
-        int rublesformila = 15;
+        double tiketPrice = 20000;
+        int rublesFormila = 15;
 
-        int bonusmiles = (int) (tiketprice / rublesformila);
+        int bonusMiles = (int) (tiketPrice / rublesFormila);
 
-        System.out.println(bonusmiles);
+        System.out.println(bonusMiles);
     }
 }
