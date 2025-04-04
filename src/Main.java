@@ -3,13 +3,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int startingScore = 100; // начальный счет
-        int replenishment = 1100; // сумма пополнения
+        double ticketPrice = 20000;
+        int rublesFormila = 15;
 
-        int bonus;
-        if (replenishment > 1100) {
-            bonus = replenishment / 100;
-        } else {
-            bonus = 0;
-        }
-    } }
+        int bonusMiles = (int) (ticketPrice / rublesFormila);
+
+        System.out.println(bonusMiles);
+    }
+
+}
