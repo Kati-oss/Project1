@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        double ticketPrice = 20000;
+        int ticketPrice = 20000;
         int rublesFormila = 15;
 
         int bonusMiles = (int) (ticketPrice / rublesFormila);
